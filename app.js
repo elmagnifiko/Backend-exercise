@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const app = express();
-const Thing = require('./models/Thing');
 const stuffRoutes = require('./routes/stuff');
 mongoose.connect('mongodb+srv://Raz:1234mongo@bac.ugwmoa7.mongodb.net/?retryWrites=true&w=majority&appName=BAC',
   { useNewUrlParser: true,
